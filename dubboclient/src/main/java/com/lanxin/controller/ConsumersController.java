@@ -13,6 +13,6 @@ public class ConsumersController {
 
     @RequestMapping(value = "/test")
     public String test(){
-        return userService.say("张睿");
+        return userService.say("word");
     }
 }
